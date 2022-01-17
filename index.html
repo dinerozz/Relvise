@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
           rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css">
@@ -19,23 +20,23 @@
             <nav class="header__menu menu">
                 <ul class="menu__list">
                     <li class="menu_item">
-                        <a href="" class="menu__link">Home</a>
+                        <a href="#main" class="menu__link">Home</a>
                     </li>
                     <li class="menu_item">
-                        <a href="" class="menu__link">Product</a>
+                        <a href="#product" class="menu__link">Product</a>
                     </li>
                     <li class="menu_item">
-                        <a href="" class="menu__link">Pricing</a>
+                        <a href="#pricing" class="menu__link">Pricing</a>
                     </li>
                     <li class="menu_item">
-                        <a href="" class="menu__link">Contact</a>
+                        <a href="#contact" class="menu__link">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="page">
-        <div class="page__main-block main-block">
+        <div class="page__main-block main-block" id="main">
             <div class="main-block__container _container">
                 <div class="main-block__body">
                     <h1 class="main-block__title">Finance and Consultancy Solution</h1>
@@ -207,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <section class="page__whoweare whoweare">
+        <section class="page__whoweare whoweare" id="product">
             <div class="whoweare__container _container">
                 <div class="whoweare__header header-block">
                     <h2 class="header-block__title">Who We Are</h2>
@@ -294,7 +295,7 @@
                 </div>
             </div>
         </section>
-        <section class="page__getintouch getintouch">
+        <section class="page__getintouch getintouch" id="pricing">
             <div class="getintouch__container _container">
                 <div class="getintouch__header header-block">
                     <h2 class="header-block__title">Get In Touch</h2>
@@ -343,7 +344,7 @@
                 </div>
             </div>
         </section>
-        <section class="page__contact contact">
+        <section class="page__contact contact" id="contact">
             <div class="contact__container _container">
                 <div class="contact__body">
                     <div class="contact__content">
